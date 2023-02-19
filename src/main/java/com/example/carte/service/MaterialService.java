@@ -1,7 +1,7 @@
 package com.example.carte.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import net.xdclass.model.MaterialDO;
+import com.example.carte.model.MaterialDO;
 
 /**
  * <p>

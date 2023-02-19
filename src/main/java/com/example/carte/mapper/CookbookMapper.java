@@ -1,7 +1,7 @@
 package com.example.carte.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import net.xdclass.model.CookbookDO;
+import com.example.carte.model.CookbookDO;
 
 /**
  * <p>

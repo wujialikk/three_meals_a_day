@@ -1,7 +1,7 @@
 package com.example.carte.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import net.xdclass.model.CookbookTagDO;
+import com.example.carte.model.CookbookTagDO;
 
 /**
  * <p>
