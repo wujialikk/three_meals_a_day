@@ -8,6 +8,7 @@ class CarteApplicationTests {
 
     @Test
     void contextLoads() {
+        System.IO.print("hahaha");
     }
 
 }
