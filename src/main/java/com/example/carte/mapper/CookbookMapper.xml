@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.xdclass.mapper.CookbookMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="net.xdclass.model.CookbookDO">
+        <id column="CookbookId" property="cookbookid" />
+        <result column="CuisineId" property="cuisineid" />
+        <result column="CookbookType" property="cookbooktype" />
+        <result column="CookbookName" property="cookbookname" />
+        <result column="CoverImageUrl" property="coverimageurl" />
+        <result column="CookbookLink" property="cookbooklink" />
+        <result column="CookbookVideoUrl" property="cookbookvideourl" />
+        <result column="CookbookContent" property="cookbookcontent" />
+        <result column="describe" property="describe" />
+        <result column="TimeConsuming" property="timeconsuming" />
+        <result column="Views" property="views" />
+        <result column="Status" property="status" />
+        <result column="CreateTime" property="createtime" />
+        <result column="UpdateTime" property="updatetime" />
+        <result column="Step" property="step" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CookbookId, CuisineId, CookbookType, CookbookName, CoverImageUrl, CookbookLink, CookbookVideoUrl, CookbookContent, describe, TimeConsuming, Views, Status, CreateTime, UpdateTime, Step
+    </sql>
+
+</mapper>

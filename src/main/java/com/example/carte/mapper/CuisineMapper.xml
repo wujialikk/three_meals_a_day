@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.xdclass.mapper.CuisineMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="net.xdclass.model.CuisineDO">
+        <id column="CuisineId" property="cuisineid" />
+        <result column="ParentId" property="parentid" />
+        <result column="CuisineName" property="cuisinename" />
+        <result column="SortNo" property="sortno" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CuisineId, ParentId, CuisineName, SortNo
+    </sql>
+
+</mapper>

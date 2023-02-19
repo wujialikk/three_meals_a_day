@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.xdclass.mapper.CookbookTagMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="net.xdclass.model.CookbookTagDO">
+        <id column="TagId" property="tagid" />
+        <result column="TagText" property="tagtext" />
+        <result column="TagName" property="tagname" />
+        <result column="Order" property="order" />
+        <result column="CookBookId" property="cookbookid" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        TagId, TagText, TagName, Order, CookBookId
+    </sql>
+
+</mapper>

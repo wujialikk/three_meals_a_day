@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.xdclass.mapper.CookbookMaterialMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="net.xdclass.model.CookbookMaterialDO">
+        <id column="CookBook_Material_ID" property="cookbookMaterialId" />
+        <result column="CookBookId" property="cookbookid" />
+        <result column="MaterialId" property="materialid" />
+        <result column="Num" property="num" />
+        <result column="IsMain" property="ismain" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CookBook_Material_ID, CookBookId, MaterialId, Num, IsMain
+    </sql>
+
+</mapper>
